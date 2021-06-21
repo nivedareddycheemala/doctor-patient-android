@@ -1,0 +1,46 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="DoctorFragments.DoctorSearch"
+    android:orientation="vertical"
+    android:padding="10dp"
+    android:background="#3C3737">
+
+
+
+    <androidx.appcompat.widget.AppCompatSpinner
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/searchcategory"
+
+        />
+
+    <EditText
+        android:layout_width="350dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="40dp"
+        android:textColorHint="#2ca7e0"
+        android:hint="Enter details here"
+        android:id="@+id/details"
+        android:drawableLeft="@drawable/ic_baseline_search_24"
+        android:background="@drawable/edit"
+        android:drawablePadding="10dp"/>
+
+    <com.google.android.material.button.MaterialButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_gravity="center"
+        android:text="Submit"
+        android:id="@+id/submit"/>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/recycler_view"/>
+
+
+
+
+</LinearLayout>

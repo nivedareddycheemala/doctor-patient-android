@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".DoctorRegistration"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="10dp">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Registration Page"
+        android:layout_gravity="center"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:textColor="#27A611"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter your full name"
+        android:textSize="20sp"
+        android:id="@+id/fullName"
+        android:layout_marginTop="10dp"
+        android:textColorHint="#27A611"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter Email Address"
+        android:textSize="20sp"
+        android:id="@+id/emailAddress"
+        android:layout_marginTop="10dp"
+        android:textColorHint="#27A611"
+        android:inputType="textEmailAddress"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter Mobile Number"
+        android:textSize="20sp"
+        android:id="@+id/mobileNum"
+        android:layout_marginTop="10dp"
+        android:textColorHint="#27A611"
+        android:inputType="phone"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter your age"
+        android:textSize="20sp"
+        android:id="@+id/age"
+        android:inputType="number"
+        android:layout_marginTop="10dp"
+        android:textColorHint="#27A611"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter Password"
+        android:textSize="20sp"
+        android:id="@+id/passWord"
+        android:layout_marginTop="10dp"
+        android:inputType="textPassword"
+        android:textColorHint="#27A611"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Re-Enter Password"
+        android:textSize="20sp"
+        android:id="@+id/rePassword"
+        android:layout_marginTop="10dp"
+        android:textColorHint="#27A611"
+        android:inputType="textPassword"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter your Speciality"
+        android:textSize="20sp"
+        android:id="@+id/speciality"
+        android:layout_marginTop="10dp"
+        android:textColorHint="#27A611"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Choose Gender"
+        android:textSize="20sp"
+        android:textColor="#27A611"
+        android:layout_marginTop="10dp"/>
+
+    <RadioGroup
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:id="@+id/genderid">
+
+        <RadioButton
+            android:layout_width="0dp"
+            android:layout_weight="0.5"
+            android:layout_height="wrap_content"
+            android:text="Male"
+            android:id="@+id/male"/>
+
+        <RadioButton
+            android:layout_width="0dp"
+            android:layout_weight="0.5"
+            android:layout_height="wrap_content"
+            android:text="Female"
+            android:id="@+id/female"/>
+
+    </RadioGroup>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Pick DOB"
+        android:background="#00EEB6"
+        android:textAlignment="gravity"
+        android:layout_marginTop="20dp"
+        android:onClick="dobpicker"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/dob"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter your Full Address"
+        android:textColorHint="#27A611"
+        android:layout_marginTop="20dp"
+        android:id="@+id/locationaddress"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Register"
+        android:background="#00EEB6"
+        android:textAlignment="gravity"
+        android:layout_marginTop="20dp"
+        android:layout_gravity="center"
+        android:paddingLeft="10dp"
+        android:id="@+id/patientRegister"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Already a User? Login"
+        android:textColor="@color/colorPrimary"
+        android:textSize="20dp"
+        android:gravity="center"
+        android:layout_marginTop="20dp"
+        android:onClick="gotoMainPage"/>
+
+
+    </LinearLayout>
+</ScrollView>
+

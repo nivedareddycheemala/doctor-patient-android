@@ -1,0 +1,37 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context="Nav_Fragments.Feedback"
+    android:orientation="vertical"
+    android:padding="20dp">
+
+    <ImageView
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/ic_baseline_feedback_24"/>
+
+    <EditText
+        android:layout_width="300dp"
+        android:layout_height="100dp"
+        android:id="@+id/feedback"
+        android:hint="Enter Feedback Here..."
+        android:paddingBottom="60dp"
+        android:paddingLeft="5dp"
+        android:textColorHint="#3D4C53"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/edit" />
+
+    <com.google.android.material.button.MaterialButton
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:cornerRadius="10dp"
+        android:text="Send Feedack"
+        android:layout_marginTop="50dp"
+        android:backgroundTint="#2ca7e0"
+        android:id="@+id/sendFeedback"/>
+
+
+</LinearLayout>

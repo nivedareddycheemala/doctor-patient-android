@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/homeid"
+        android:title="Home"
+        android:icon="@drawable/ic_baseline_home_24"/>
+
+    <item
+        android:id="@+id/myprofile"
+        android:title="My Profile"
+        android:icon="@drawable/ic_baseline_person_24"/>
+
+    <item
+        android:id="@+id/search_disease"
+        android:title="Disease Prediction"
+        android:icon="@drawable/search_disease"/>
+
+    <item
+        android:id="@+id/search_doctor"
+        android:title="Get Diagnosis"
+        android:icon="@drawable/search_doctor"/>
+
+    <item
+        android:id="@+id/feedback"
+        android:title="Feedback"
+        android:icon="@drawable/feedbackicon" />
+
+    <item
+        android:id="@+id/bookappointment"
+        android:title="Book Appointment"
+        android:icon="@drawable/appointment"/>
+
+
+    <item
+        android:id="@+id/settings"
+        android:title="Settings"
+        android:icon="@drawable/settings">
+
+        <menu>
+
+            <item
+                android:id="@+id/changepassword"
+                android:title="Change Password"
+                android:icon="@drawable/changepasswordlogo"/>
+
+        </menu>
+
+    </item>
+
+</menu>

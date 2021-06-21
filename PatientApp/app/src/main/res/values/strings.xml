@@ -1,0 +1,54 @@
+<resources>
+    <string name="app_name">PatientApp</string>
+    <string name="err_name">Enter Corret Name</string>
+    <string name="err_tel">Enter Correct Phone Number</string>
+    <string name="err_email">Enter Correct Email Address</string>
+    <string name="err_password">Password doesn\'t Match</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="Sign_in">Sign In</string>
+    <string name="Success">SUCCESS</string>
+    <string name="Loading">Loading</string>
+
+    <string-array name="DoctorSearch">
+
+        <item>Please select the category to search</item>
+        <item>Name</item>
+        <item>Mobile</item>
+        <item>Email</item>
+        <item>Location</item>
+        <item>Speciality</item>
+    </string-array>
+
+    <string-array name="symptom_list">
+        <item>SELECT SYMPTOM</item>
+        <item>Anxiety</item>
+        <item>Stomach Ache</item>
+        <item>Nausea</item>
+        <item>Vomiting</item>
+        <item>Fever</item>
+        <item>Sudden Weight Loss</item>
+        <item>Sweating</item>
+        <item>Muscle And Body Pain</item>
+        <item>Thirsty Than Usual</item>
+        <item>Headaches</item>
+        <item>Weakness/Fatigue</item>
+        <item>Abdominal Pain</item>
+        <item>Muscle Pain</item>
+        <item>Dry Cough</item>
+        <item>Diarrhoea/Constipation</item>
+        <item>Frequent Urination</item>
+        <item>Hunger</item>
+        <item>Blurred Vision</item>
+        <item>Skin Itching</item>
+        <item>Chest Pain</item>
+        <item>Shortness in Breath</item>
+        <item>Dizziness</item>
+        <item>Fast Heartbeat</item>
+        <item>Indigestion</item>
+        <item>Pressure Or Heaviness In Chest</item>
+    </string-array>
+
+
+    <string name="key">AIzaSyA8DyocSnuDjJjLX5AjbQK0lY3_Ar_Db-k</string>
+</resources>

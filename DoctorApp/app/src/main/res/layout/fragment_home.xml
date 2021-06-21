@@ -1,0 +1,80 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="Nav_Fragments.Home"
+    android:orientation="vertical"
+    android:background="@drawable/back3">
+    
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="SMART HEALTHCARE APPLICATION"
+        android:textColor="#F3F2F2"
+        android:textSize="15sp"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:padding="10dp"
+        android:layout_marginTop="30dp"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:orientation="horizontal"
+        android:padding="10dp"
+        android:layout_marginTop="100dp">
+
+
+        <Button
+            android:layout_width="0dp"
+            android:layout_weight="0.5"
+            android:layout_height="150dp"
+            android:backgroundTint="#F3F2F2"
+            android:text="My Profile"
+            android:textColor="#1153D6"
+            android:drawableLeft="@drawable/ic_baseline_person_24"
+            android:id="@+id/profilebtn"/>
+
+        <Button
+            android:layout_width="0dp"
+            android:layout_weight="0.5"
+            android:layout_height="150dp"
+            android:backgroundTint="#F3F2F2"
+            android:layout_marginLeft="20dp"
+            android:text="PATIENT"
+            android:textColor="#1153D6"
+            android:id="@+id/patientbtn"
+            android:drawableLeft="@drawable/homepatient"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:orientation="horizontal"
+        android:padding="10dp">
+
+        <Button
+            android:layout_width="0dp"
+            android:layout_weight="0.5"
+            android:layout_height="150dp"
+            android:backgroundTint="#F3F2F2"
+            android:text="Feedback"
+            android:textColor="#1153D6"
+            android:id="@+id/feedbackbtn"
+            android:drawableLeft="@drawable/homefeedback"/>
+
+        <Button
+            android:layout_width="0dp"
+            android:layout_weight="0.5"
+            android:layout_height="150dp"
+            android:backgroundTint="#F3F2F2"
+            android:layout_marginLeft="20dp"
+            android:text="Settings"
+            android:textColor="#1153D6"
+            android:id="@+id/settingsbtn"
+            android:drawableLeft="@drawable/homesettings"/>
+
+    </LinearLayout>
+
+</LinearLayout>
