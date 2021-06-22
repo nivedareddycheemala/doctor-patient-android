@@ -186,6 +186,7 @@ public class DoctorRegistration extends AppCompatActivity {
                                             }
                                         });
                                     }else{
+                                        pd.dismiss();
                                         Toast.makeText(DoctorRegistration.this, "Can't Register with this details", Toast.LENGTH_SHORT).show();
                                     }
 
